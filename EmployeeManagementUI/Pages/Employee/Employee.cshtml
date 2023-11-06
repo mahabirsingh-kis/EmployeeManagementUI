@@ -1,0 +1,49 @@
+﻿@page
+@model EmployeeManagementUI.Pages.Employee.EmployeeModel
+@{
+    ViewData["Title"] = "Employee List";
+}
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Employee Name
+            </th>
+            <th>
+               Email
+            </th>
+            <th>
+                D.O.B
+            </th>
+            <th>
+               Department
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.employeesResponseList)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DOB)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartmentName)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.EmployeeId">Edit</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.EmployeeId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
