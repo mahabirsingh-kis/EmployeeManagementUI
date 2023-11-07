@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rfP9EMCAom59Gzhy8gLGq0JPZw0mctxFyd9eXZx8JZcvvZgs5mzFk0yaOz3VfTWfNwE9/kGo32IaGslSkPmnxQ==",
+  "dgSpecHash": "gS4HB+G0I26ld2pCmCT+tZLHpiDjStcX4ZlyWGycs7INTeGg7vgbYQeXVMLrRKoslQA7qpLjK/koO7VPszNQyg==",
   "success": true,
-  "projectFilePath": "E:\\Work2023\\Core6\\EmployeeManagementUI\\EmployeeManagementUI\\EmployeeManagementUI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "G:\\Core7\\EmployeeManagementUI\\EmployeeManagementUI\\EmployeeManagementUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\system56\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

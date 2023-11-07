@@ -1,11 +1,94 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "EmployeeManagementUIApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "EmployeeManagementUIModels": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeManagementUIApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagementUIApiClient.dll": {}
+        }
+      },
+      "EmployeeManagementUIModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/EmployeeManagementUIModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagementUIModels.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "EmployeeManagementUIApiClient/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManagementUIApiClient/EmployeeManagementUIApiClient.csproj",
+      "msbuildProject": "../EmployeeManagementUIApiClient/EmployeeManagementUIApiClient.csproj"
+    },
+    "EmployeeManagementUIModels/1.0.0": {
+      "type": "project",
+      "path": "../EmloyeeManagmentUIModels/EmployeeManagementUIModels.csproj",
+      "msbuildProject": "../EmloyeeManagmentUIModels/EmployeeManagementUIModels.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "EmployeeManagementUIApiClient >= 1.0.0",
+      "EmployeeManagementUIModels >= 1.0.0",
+      "Newtonsoft.Json >= 13.0.3"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\system56\\.nuget\\packages\\": {},
@@ -15,11 +98,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work2023\\Core6\\EmployeeManagementUI\\EmployeeManagementUI\\EmployeeManagementUI.csproj",
+      "projectUniqueName": "G:\\Core7\\EmployeeManagementUI\\EmployeeManagementUI\\EmployeeManagementUI.csproj",
       "projectName": "EmployeeManagementUI",
-      "projectPath": "E:\\Work2023\\Core6\\EmployeeManagementUI\\EmployeeManagementUI\\EmployeeManagementUI.csproj",
+      "projectPath": "G:\\Core7\\EmployeeManagementUI\\EmployeeManagementUI\\EmployeeManagementUI.csproj",
       "packagesPath": "C:\\Users\\system56\\.nuget\\packages\\",
-      "outputPath": "E:\\Work2023\\Core6\\EmployeeManagementUI\\EmployeeManagementUI\\obj\\",
+      "outputPath": "G:\\Core7\\EmployeeManagementUI\\EmployeeManagementUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -41,7 +124,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\Core7\\EmployeeManagementUI\\EmloyeeManagmentUIModels\\EmployeeManagementUIModels.csproj": {
+              "projectPath": "G:\\Core7\\EmployeeManagementUI\\EmloyeeManagmentUIModels\\EmployeeManagementUIModels.csproj"
+            },
+            "G:\\Core7\\EmployeeManagementUI\\EmployeeManagementUIApiClient\\EmployeeManagementUIApiClient.csproj": {
+              "projectPath": "G:\\Core7\\EmployeeManagementUI\\EmployeeManagementUIApiClient\\EmployeeManagementUIApiClient.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -53,6 +143,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

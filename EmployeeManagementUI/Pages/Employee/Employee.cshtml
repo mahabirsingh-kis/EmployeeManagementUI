@@ -5,6 +5,21 @@
 }
 <h1>@ViewData["Title"]</h1>
 
+<form method="post">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="@Model.SearchText"></label>
+                <input type="text" asp-for="@Model.SearchText" class="form-control" />
+            </div>
+        </div>
+        <div class="col-md-6 text-left">
+            <button type="submit" class="btn btn-primary mt-4">Search</button>
+            <a href="/Employee/AddEmployee" class="btn btn-primary mt-4">Add Employee</a>
+        </div>
+    </div>
+</form>
+
 <table class="table">
     <thead>
         <tr>
@@ -12,13 +27,13 @@
                 Employee Name
             </th>
             <th>
-               Email
+                Email
             </th>
             <th>
                 D.O.B
             </th>
             <th>
-               Department
+                Department
             </th>
             <th></th>
         </tr>
@@ -34,14 +49,25 @@
                     @Html.DisplayFor(modelItem => item.Email)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.DOB)
+                    @if (item.DOB.HasValue)
+                    {
+                        @item.DOB.Value.ToString("yyyy-MM-dd")
+                    }
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.DepartmentName)
                 </td>
                 <td>
-                    <a asp-page="./Edit" asp-route-id="@item.EmployeeId">Edit</a> |
-                    <a asp-page="./Delete" asp-route-id="@item.EmployeeId">Delete</a>
+                    <a href="@($"/Employee/EditEmployee?id={item.EmployeeId}")">Edit</a> |
+                    <a href="@($"/Employee/DeleteEmployee?id={item.EmployeeId}")">Delete</a>
+                </td>
+            </tr>
+        }
+        @if (Model.employeesResponseList.Count() == 0)
+        {
+            <tr>
+                <td colspan="5" class="text-center">
+                    No data available
                 </td>
             </tr>
         }
