@@ -1,0 +1,22 @@
+﻿@page
+@model EmployeeManagementUI.Pages.Employee.DeleteEmployeeModel
+@{
+}
+@if (Model.Error)
+{
+    <div class="alert alert-danger">
+        @Model.Message
+    </div>
+}
+<form method="post">
+    @Html.HiddenFor(x => x.Id)
+    <div class="row">
+        <div class="col-md-12">
+            Are you sure you want to delete it?
+        </div>
+        <div class="col-md-6 text-left">
+            <button type="submit" class="btn btn-primary mt-4">Yes</button>
+            <a href="/Employee/Employee" class="btn btn-danger mt-4">Cancel</a>
+        </div>
+    </div>
+</form>

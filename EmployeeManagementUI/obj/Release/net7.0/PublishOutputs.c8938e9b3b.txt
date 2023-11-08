@@ -1,0 +1,12 @@
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\EmployeeManagementUI.exe
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\appsettings.json
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\EmployeeManagementUI.dll
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\EmployeeManagementUI.deps.json
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\EmployeeManagementUI.runtimeconfig.json
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\EmployeeManagementUI.pdb
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\Newtonsoft.Json.dll
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\EmployeeManagementUIApiClient.dll
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\EmployeeManagementUIModels.dll
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\EmployeeManagementUIModels.pdb
+G:\Core7\EmployeeManagementUI\EmployeeManagementUI\obj\Release\net7.0\PubTmp\Out\EmployeeManagementUIApiClient.pdb

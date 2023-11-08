@@ -1,0 +1,49 @@
+﻿@page
+@model EmployeeManagementUI.Pages.Employee.EditEmployeeModel
+@{
+    ViewData["Title"] = "Edit Employee";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            @if (Model.Error)
+            {
+                <div class="alert alert-danger">
+                    @Model.Message
+                </div>
+            }
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <form method="POST">
+                <legend>Edit Employee</legend>
+                @Html.HiddenFor(x => x.employeeDetailsModel.EmployeeId)
+                <div class="mb-3">
+                    <label asp-for="employeeDetailsModel.Name"></label>
+                    <input asp-for="employeeDetailsModel.Name" type="text" class="form-control" />
+                    <span asp-validation-for="employeeDetailsModel.Name" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="employeeDetailsModel.Email"></label>
+                    <input asp-for="employeeDetailsModel.Email" type="text" class="form-control" />
+                    <span asp-validation-for="employeeDetailsModel.Email" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="employeeDetailsModel.DOB"></label>
+                    <input asp-for="employeeDetailsModel.DOB" class="form-control" />
+                    <span asp-validation-for="employeeDetailsModel.DOB" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="employeeDetailsModel.DepartmentId"></label>
+                    <select asp-for="employeeDetailsModel.DepartmentId" asp-items="Model.Departments" class="form-control">
+                        <option value="">Select a Department</option>
+                    </select>
+                    <span asp-validation-for="employeeDetailsModel.DepartmentId" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Update</button>
+                <a href="/Employee/Employee" class="btn btn-danger">Cancel</a>
+            </form>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,12 @@
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\bin\Release\net7.0\EmployeeManagementUIModels.deps.json
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\bin\Release\net7.0\EmployeeManagementUIModels.dll
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\bin\Release\net7.0\EmployeeManagementUIModels.pdb
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\obj\Release\net7.0\EmployeeManagementUIModels.csproj.AssemblyReference.cache
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\obj\Release\net7.0\EmployeeManagementUIModels.GeneratedMSBuildEditorConfig.editorconfig
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\obj\Release\net7.0\EmployeeManagementUIModels.AssemblyInfoInputs.cache
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\obj\Release\net7.0\EmployeeManagementUIModels.AssemblyInfo.cs
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\obj\Release\net7.0\EmployeeManagementUIModels.csproj.CoreCompileInputs.cache
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\obj\Release\net7.0\EmployeeManagementUIModels.dll
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\obj\Release\net7.0\refint\EmployeeManagementUIModels.dll
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\obj\Release\net7.0\EmployeeManagementUIModels.pdb
+G:\Core7\EmployeeManagementUI\EmloyeeManagmentUIModels\obj\Release\net7.0\ref\EmployeeManagementUIModels.dll

@@ -1,0 +1,15 @@
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\bin\Release\net7.0\EmployeeManagementUIApiClient.deps.json
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\bin\Release\net7.0\EmployeeManagementUIApiClient.dll
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\bin\Release\net7.0\EmployeeManagementUIApiClient.pdb
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\bin\Release\net7.0\EmployeeManagementUIModels.dll
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\bin\Release\net7.0\EmployeeManagementUIModels.pdb
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\obj\Release\net7.0\EmployeeManagementUIApiClient.csproj.AssemblyReference.cache
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\obj\Release\net7.0\EmployeeManagementUIApiClient.GeneratedMSBuildEditorConfig.editorconfig
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\obj\Release\net7.0\EmployeeManagementUIApiClient.AssemblyInfoInputs.cache
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\obj\Release\net7.0\EmployeeManagementUIApiClient.AssemblyInfo.cs
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\obj\Release\net7.0\EmployeeManagementUIApiClient.csproj.CoreCompileInputs.cache
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\obj\Release\net7.0\EmployeeManagementUIApiClient.csproj.CopyComplete
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\obj\Release\net7.0\EmployeeManagementUIApiClient.dll
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\obj\Release\net7.0\refint\EmployeeManagementUIApiClient.dll
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\obj\Release\net7.0\EmployeeManagementUIApiClient.pdb
+G:\Core7\EmployeeManagementUI\EmployeeManagementUIApiClient\obj\Release\net7.0\ref\EmployeeManagementUIApiClient.dll

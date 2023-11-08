@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "I1M6TKg8X+wRTNq7OGTZaGZmQnvxfkdsaSaGV+acIcH+ypq7yhmAqybVXqbCQED5HpkN4bmi4wHYmrmseP2YTQ==",
+  "success": true,
+  "projectFilePath": "G:\\Core7\\EmployeeManagementUI\\EmployeeManagementUIApiClient\\EmployeeManagementUIApiClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\system56\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
